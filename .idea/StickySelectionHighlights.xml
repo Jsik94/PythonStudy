@@ -68,6 +68,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/codingTestWithPython/test.py">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
