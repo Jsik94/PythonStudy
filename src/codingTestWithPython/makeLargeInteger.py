@@ -52,7 +52,9 @@ def solution3(number, k):
         case = case*10 +int(number[idx])
         print("현재 dp vs case : {} {}".format(dp,case))
         dp = max(dp, case)
+    answer.reverse()
     return dp
+
 
 
 
@@ -68,6 +70,7 @@ def solution3(number, k):
         for atom in itertools.combinations(str(dp),size-1):
             # print("".join(list(map(str,atom))))
             case = max(case,int("".join(list(map(str,atom)))))
+
         case = case*10 +int(number[idx])
         print("현재 dp vs case : {} {}".format(dp,case))
         dp = max(dp, case)
